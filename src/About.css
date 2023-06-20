@@ -15,3 +15,8 @@
   color: #ffffff;
   padding: 20px;
 }
+.about-col {
+  text-align: start;
+  margin: 10px auto;
+  margin-left: 20px;
+}

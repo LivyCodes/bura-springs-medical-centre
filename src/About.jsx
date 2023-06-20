@@ -7,9 +7,37 @@ function About() {
       <div class="hero hero-1 d-flex">
         <h1>ABOUT</h1>
       </div>
+      <h4>Vision Statement</h4>
+
       <div className="row mt-3">
-        <div className="col">
-          <h4>Company History</h4>
+        <h4 className="text-center title">Company History</h4>
+        <div className="col-5 about-col">
+          <p>
+            Bura Springs Family Medical Centre is a local company in Kenya,
+            registered under the Kenyan Companies Act in December 2020. It
+            offers a variety of healthcare services and has been operating for
+            over 2 years. It is known for its ability to adapt to changing
+            demands and create added value and synergies. It is equipped with
+            modern facilities that enhance the experience for both service
+            providers and patients.
+          </p>
+        </div>
+        <div className="col-5">Photo Here</div>
+      </div>
+      <div className="row mt-3">
+        <h4 className="text-center title">Management Team</h4>
+
+        <div className="col-5">Photo Here</div>
+        <div className="col-5 about-col">
+          <p>
+            Bura Springs Family Medical Centre is a local company in Kenya,
+            registered under the Kenyan Companies Act in December 2020. It
+            offers a variety of healthcare services and has been operating for
+            over 2 years. It is known for its ability to adapt to changing
+            demands and create added value and synergies. It is equipped with
+            modern facilities that enhance the experience for both service
+            providers and patients.
+          </p>
         </div>
       </div>
     </div>
