@@ -1,0 +1,132 @@
+#root {
+  margin: 0 auto;
+  padding: 0 auto;
+  text-align: center;
+}
+
+.background-image {
+  position: relative;
+  background-image: url("https://media.istockphoto.com/id/1301555107/photo/offering-patient-centred-care-that-proves-effective-and-efficient.jpg?s=612x612&w=0&k=20&c=ZQ-XMynZeFaYYLHfEhDpiBnjGd8DODsCb57r2ZmZkjw=");
+  background-size: cover;
+  min-height: 700px;
+}
+
+.background-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(45deg, #00afef7e 0%, #0baf7380 100%);
+}
+
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 36px;
+  animation: wordAnimation 2s ease-in-out forwards;
+  opacity: 0;
+}
+
+.text-overlay span {
+  opacity: 0;
+  animation: wordFadeIn 2s ease-in-out forwards;
+  margin-right: 10px; /* Add spacing between words */
+}
+
+@keyframes wordAnimation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-overlay span {
+  opacity: 0;
+  animation: wordFadeIn 2s ease-in-out forwards;
+}
+
+@keyframes wordFadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-overlay h1:nth-child(1) span:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.text-overlay h1:nth-child(1) span:nth-child(2) {
+  animation-delay: 1s;
+}
+
+.text-overlay h1:nth-child(1) span:nth-child(3) {
+  animation-delay: 1.5s;
+}
+
+.text-overlay h1:nth-child(1) span:nth-child(4) {
+  animation-delay: 2s;
+}
+
+.text-overlay h1:nth-child(1) span:nth-child(5) {
+  animation-delay: 2.5s;
+}
+
+.text-overlay h1:nth-child(1) span:nth-child(6) {
+  animation-delay: 3s;
+}
+
+.text-overlay h1:nth-child(1) span:nth-child(7) {
+  animation-delay: 3.5s;
+}
+
+.text-overlay h1:nth-child(1) span:nth-child(8) {
+  animation-delay: 4s;
+}
+
+.text-overlay h4:nth-child(2) span:nth-child(2) {
+  animation-delay: 4.5s;
+}
+
+.text-overlay h4:nth-child(2) span:nth-child(1) {
+  animation-delay: 4s;
+}
+
+@media (max-width: 768px) {
+  .text-overlay {
+    padding: 10px;
+    top: 40%;
+  }
+
+  .text-overlay h1 {
+    font-size: 28px;
+  }
+  .text-overlay h4 {
+    font-size: 16px;
+  }
+
+  .background-image {
+    background-size: contain;
+  }
+}

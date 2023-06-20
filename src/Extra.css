@@ -1,0 +1,36 @@
+.card {
+  background-color: #fafcfc;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.card-a {
+  background: linear-gradient(45deg, #00afefb9 0%, #0baf73c8 100%);
+  border: none;
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1);
+}
+.btn {
+  background: linear-gradient(45deg, #00afefb9 0%, #0baf73c8 100%);
+  border: none;
+}
+
+.btn-custom {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #4f555a;
+  font-size: 20px;
+}
+
+.text-custom {
+  color: #fafcfc;
+}
+.title {
+  color: #00afefd8;
+}
+
+p {
+  font-size: 20px;
+}
+div#work-hours {
+  background: linear-gradient(45deg, #00afef7e 0%, #0baf7380 100%);
+  text-align: center;
+}
