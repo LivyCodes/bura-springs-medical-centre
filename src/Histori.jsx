@@ -1,24 +1,15 @@
 import React from "react";
-import "./About.css";
+import "./Histori.css";
 
-function About() {
+function Histori() {
   return (
     <div>
       <div class="hero hero-1 d-flex">
-        <h1>ABOUT</h1>
+        <h1>OUR HISTORY & THE MANAGEMENT TEAM</h1>
       </div>
-      <h4 className="text-center title">Vision Statement</h4>
-      <ul>
-        <li>
-          To provide a responsive healing environment for patients and their
-          families and to improve the quality of life for all members of our
-          community.
-        </li>
-      </ul>
-
       <div className="row mt-3">
         <h4 className="text-center title">Company History</h4>
-        <div className="col-5 about-col">
+        <div className="col-7 about-col">
           <p>
             Bura Springs Family Medical Centre is a local company in Kenya,
             registered under the Kenyan Companies Act in December 2020. It
@@ -29,13 +20,13 @@ function About() {
             providers and patients.
           </p>
         </div>
-        <div className="col-5">Photo Here</div>
+        <div className="col-4">Photo Here</div>
       </div>
       <div className="row mt-3">
         <h4 className="text-center title">Management Team</h4>
 
-        <div className="col-5">Photo Here</div>
-        <div className="col-5 about-col">
+        <div className="col-4">Photo Here</div>
+        <div className="col-7 about-col">
           <p>
             Bura Springs Family Medical Centre is a local company in Kenya,
             registered under the Kenyan Companies Act in December 2020. It
@@ -51,4 +42,4 @@ function About() {
   );
 }
 
-export default About;
+export default Histori;

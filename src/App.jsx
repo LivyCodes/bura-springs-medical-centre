@@ -1,6 +1,7 @@
 import NavBar from "./NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import About from "./About";
+import VisionMission from "./VisionMission";
+import Histori from "./Histori";
 import Services from "./Services";
 import HomeCare from "./HomeCare";
 import Rescue from "./Rescue";
@@ -18,7 +19,8 @@ function App() {
           <NavBar />
           <Routes>
             <Route exact path="/" element={<HomePage />} />
-            <Route exact path="/About" element={<About />} />
+            <Route exact path="/VisionMission" element={<VisionMission />} />
+            <Route exact path="/Histori" element={<Histori />} />
             <Route exact path="/Services" element={<Services />} />
             <Route exact path="/HomeCare" element={<HomeCare />} />
             <Route exact path="/Contacts" element={<Contacts />} />

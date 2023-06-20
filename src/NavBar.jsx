@@ -31,10 +31,33 @@ function NavBar() {
                   HOME
                 </Link>
               </li>
-              <li class="nav-item">
-                <Link class="nav-link" to="/About" title="About us">
+              <li class="nav-item dropdown">
+                <Link
+                  class="nav-link dropdown-toggle"
+                  to="/Products"
+                  title="Our Products"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
                   ABOUT US
                 </Link>
+                <ul class="dropdown-menu">
+                  <li>
+                    <Link
+                      class="dropdown-item"
+                      to="/VisionMission"
+                      title="Vision, Mission & Core Values"
+                    >
+                      VISION, MISSION & CORE VALUES
+                    </Link>
+                  </li>
+                  <li>
+                    <Link class="dropdown-item" to="/Histori" title="History">
+                      OUR HISTORY & THE MANAGEMENT TEAM
+                    </Link>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item">
                 <Link class="nav-link" to="/Services" title="Our Services">
