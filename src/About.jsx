@@ -7,6 +7,11 @@ function About() {
       <div class="hero hero-1 d-flex">
         <h1>ABOUT</h1>
       </div>
+      <div className="row mt-3">
+        <div className="col">
+          <h4>Company History</h4>
+        </div>
+      </div>
     </div>
   );
 }
