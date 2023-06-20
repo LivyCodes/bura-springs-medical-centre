@@ -7,7 +7,14 @@ function About() {
       <div class="hero hero-1 d-flex">
         <h1>ABOUT</h1>
       </div>
-      <h4>Vision Statement</h4>
+      <h4 className="text-center title">Vision Statement</h4>
+      <ul>
+        <li>
+          To provide a responsive healing environment for patients and their
+          families and to improve the quality of life for all members of our
+          community.
+        </li>
+      </ul>
 
       <div className="row mt-3">
         <h4 className="text-center title">Company History</h4>
