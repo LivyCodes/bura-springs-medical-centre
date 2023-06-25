@@ -15,12 +15,29 @@
   color: #ffffff;
   padding: 20px;
 }
+.watermark {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.watermark::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  background-image: url("./assets/logo.jpg");
+  opacity: 0.2; /* Adjust the opacity as desired */
+  pointer-events: none; /* Prevents the watermark from interfering with user interactions */
+  z-index: -1; /* Push the watermark behind other content */
+}
 
 .vision-mission {
   text-align: start;
   margin: 10px auto;
   margin-left: 20px;
-  background-color: #fafcfc;
 }
 
 .custom-card {

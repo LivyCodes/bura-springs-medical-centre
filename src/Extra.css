@@ -30,7 +30,10 @@
 p {
   font-size: 20px;
 }
-div#work-hours {
-  background: linear-gradient(45deg, #00afef7e 0%, #0baf7380 100%);
+#work-hours {
   text-align: center;
+}
+.col {
+  margin-right: 20px;
+  margin-left: 20px;
 }
