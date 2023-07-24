@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contacts.css";
+import DirectionsMap from "./assets/direction-map.jpg";
 
 function Contacts() {
   return (
@@ -7,7 +8,7 @@ function Contacts() {
       <div class="hero hero-1 d-flex">
         <h1>CONTACTS & INFORMATION</h1>
       </div>
-      <div className="row mt-3">
+      <div className="row mt-3 mb-3">
         <div className="col contacts-col">
           <h4 className="contacts-head text-center">
             BUSINESS ADDRESS AND DETAILS
@@ -59,6 +60,9 @@ function Contacts() {
             </li>
           </ul>
         </div>
+      </div>
+      <div className="row mb-3">
+        <img src={DirectionsMap} alt="directional map" />
       </div>
     </div>
   );

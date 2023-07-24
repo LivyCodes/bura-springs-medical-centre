@@ -8,7 +8,9 @@ function Histori() {
         <h1>OUR HISTORY & THE MANAGEMENT TEAM</h1>
       </div>
       <div className="Histori">
-        <h4 className="text-center title">Company History</h4>
+        <h4 className="text-center title" id="histori">
+          Company History
+        </h4>
 
         <p>
           Bura Springs Family Medical Centre Ltd is a local company owned by

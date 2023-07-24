@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Extra.css";
 
 function Extra() {
@@ -25,8 +26,10 @@ function Extra() {
             saving lives and making every patient who walks in the facility
             healthy and fit.
           </p>
-          <a href="#" class="btn btn-primary">
-            Learn more
+          <a>
+            <Link to="/Histori" class=" btn-custom btn btn-primary">
+              Learn more
+            </Link>
           </a>
         </div>
         <div class="col-4 " style={{ backgroundColor: "#fafcfc" }}>
@@ -56,22 +59,52 @@ function Extra() {
         </div>
       </div>
 
-      <h4 class="title mt-3 text-center">Our Specialized Clinics</h4>
+      <h4 class="title mt-3 text-center">Services Offered</h4>
       <div class="row mt-3">
         <div class="col">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title title mt-3">Obstetrics & Gynaecology</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Card subtitle
-              </h6>
+              <h5 class="card-title title mt-3">OutPatient Services</h5>
+
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                We offer complete outpatient treatments for a variety of medical
+                issues. Our team of skilled doctors, nurses, and support
+                personnel are here to help you whether you need a normal
+                check-up or a specialty appointment.
               </p>
-              <a href="#" class="btn btn-primary">
-                Learn more
-              </a>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Outpatient services include:
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        Diagnosis, treatment and management for conditions such
+                        as:
+                        <li>Hypertension</li>
+                        <li>Diabetes</li>
+                        <li>Respiratory Diseases</li>
+                        <li>Gastrointestinal Disorders</li>
+                        <li>Neurological Problems</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -128,17 +161,47 @@ function Extra() {
         <div class="col">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title title mt-3">Peadiatrics</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Card subtitle
-              </h6>
+              <h5 class="card-title title mt-3">Health Education</h5>
+
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Health education is an essential component of promoting wellness
+                and patient empowerment. We believe that knowledge is power when
+                it comes to your health, which is why we offer comprehensive
+                health education services.
               </p>
-              <a href="#" class="btn btn-primary">
-                Learn more
-              </a>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Topics covered include:
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Healthy lifestyle Promotion</li>
+                        <li>Diseases Prevention</li>
+                        <li>Medication Management</li>
+                        <li>Chronic Disease Management</li>
+                        <li>Nutrition Education</li>
+                        <li>Mental Health Awareness</li>
+                        <li>Sexual Health Education</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -241,20 +304,57 @@ function Extra() {
         <div class="col">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title title mt-3">Physician-Dermatologist</h5>
-              <h6 class="card-subtitle mb-2 text-body-secondary">
-                Card subtitle
-              </h6>
+              <h5 class="card-title title mt-3">Inpatient Services</h5>
+
               <p class="card-text">
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                We prioritize your well-being and deliver compassionate care
+                throughout your hospital stay. Our dedicated team of healthcare
+                professionals provides personalized attention and advanced
+                medical services tailored to your specific needs.
               </p>
-              <a href="#" class="btn btn-primary">
-                Learn more
-              </a>
+              <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#flush-collapseOne"
+                      aria-expanded="false"
+                      aria-controls="flush-collapseOne"
+                    >
+                      Inpatient Services include:
+                    </button>
+                  </h2>
+                  <div
+                    id="flush-collapseOne"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#accordionFlushExample"
+                  >
+                    <div class="accordion-body">
+                      <ul>
+                        <li>Short-term Observation</li>
+                        <li>Infusion Therapy</li>
+                        <li>Postoperative Recovery</li>
+                        <li>Pain Management</li>
+                        <li>Acute Medical Management</li>
+                        <li>Specialized Treatment Units</li>
+                        <li>Observation & Management of Acute Illness</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+      <div className="text-center">
+        <a>
+          <Link to="/Services" class=" btn-custom btn btn-primary mt-3">
+            Explore our comprehensive range of services for detailed information
+          </Link>
+        </a>
       </div>
 
       <p class="mt-5 mb-5 text-center">
@@ -282,7 +382,7 @@ function Extra() {
 
       <div className="row mt-3">
         <div className="col mt-3">
-          <h4>Supporting Bura Springs FC</h4>
+          <h4>OUR SOCIAL IMPACT</h4>
           <p>
             The idea of CSR has placed corporations not only in the position to
             be responsible for economic and legal obligations but also to a
