@@ -10,6 +10,8 @@ import lab2 from "./assets/lab2.jpeg";
 import ae from "./assets/a&e1.jpeg";
 import Triage from "./assets/triage.jpeg";
 import ward from "./assets/ward.jpeg";
+import consultation from "./assets/consultation.jpg";
+import dental from "./assets/dental.jpg";
 
 function Services() {
   return (
@@ -179,10 +181,7 @@ function Services() {
         <div className="row mt-2">
           <h3>OUTPATIENT SERVICES</h3>
           <div className="col">
-            <img
-              src="https://silverlinecrm.com/wp-content/uploads/2021/04/Patient-360.jpg"
-              className="col-images"
-            />
+            <img src={consultation} className="col-images" />
           </div>
           <div className="col">
             <p className="services-p text-start">
@@ -337,7 +336,7 @@ function Services() {
             </p>
           </div>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <img src={dental} className="col-images" />
           </div>
         </div>
         <div className="row mt-2">

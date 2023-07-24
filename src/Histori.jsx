@@ -1,5 +1,8 @@
 import React from "react";
 import "./Histori.css";
+import facePhoto from "./assets/facePhoto.jpeg";
+import ceo from "./assets/ceo-director.jpeg";
+import financialManager from "./assets/financialManager.jpeg";
 
 function Histori() {
   return (
@@ -25,8 +28,8 @@ function Histori() {
           a variety of health care services and has over 2 years of experience
           in health care provision.
           <br />
-          <div>
-            <strong>Facility Face Photo Here</strong>
+          <div className="container">
+            <img src={facePhoto} className="col-images" />
           </div>
           Since the establishment of the health care facility, the company has
           been fast growing in terms of services delivery and customer care
@@ -61,8 +64,89 @@ function Histori() {
           responsible for strategic planning and decision making of the
           hospital.
           <br />
-          <div>
-            <strong>Staff/Management Photo Here</strong>
+          <div className="container">
+            <div className="row">
+              <div className="col">
+                <div
+                  id="carouselExampleAutoplaying"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src={ceo} className="col-images" />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Mr Eric Magina - CEO/ Managing Director</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <div className="col">
+                <div
+                  id="carouselExampleAutoplaying"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src={financialManager} className="col-images" />
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Mr Brian Mutumwa - Financial Manager</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev"
+                  >
+                    <span
+                      class="carousel-control-prev-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next"
+                  >
+                    <span
+                      class="carousel-control-next-icon"
+                      aria-hidden="true"
+                    ></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
           In order to run our business professionally, we comply with the health
           sector regulations and also recruit employees with high integrity. We
