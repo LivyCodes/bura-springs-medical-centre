@@ -2,6 +2,7 @@ import React from "react";
 import Extra from "./Extra";
 import certs from "./assets/credentials.jpg";
 import face from "./assets/front1.jpeg";
+import facePhoto from "./assets/facePhoto.jpeg";
 
 function HomePage() {
   return (
@@ -30,7 +31,7 @@ function HomePage() {
             >
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src={certs} className="hospital-image" />
+                  <img src={facePhoto} className="hospital-image" />
                 </div>
                 <div class="carousel-item">
                   <img src={face} className="hospital-image" />

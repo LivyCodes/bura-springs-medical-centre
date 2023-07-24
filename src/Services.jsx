@@ -1,9 +1,15 @@
 import React from "react";
 import "./Services.css";
 import pharmacy from "./assets/pharmacy.jpeg";
+import pharmacy2 from "./assets/pharmacy2.jpeg";
 import maternity from "./assets/maternity-bed.jpeg";
 import maternityroom from "./assets/maternity-bed2.jpeg";
 import mch from "./assets/mch.jpg";
+import lab1 from "./assets/lab1.jpeg";
+import lab2 from "./assets/lab2.jpeg";
+import ae from "./assets/a&e1.jpeg";
+import Triage from "./assets/triage.jpeg";
+import ward from "./assets/ward.jpeg";
 
 function Services() {
   return (
@@ -33,13 +39,99 @@ function Services() {
             </p>
           </div>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src={pharmacy} className="col-images" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src={pharmacy2} className="col-images" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5></h5>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
         <div className="row mt-2">
           <h3>LABORATORY SERVICES</h3>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src={lab1} className="col-images" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Laboratory Room</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src={lab2} className="col-images" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Laboratory Room</h5>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
           <div className="col">
             <p className="services-p text-start">
@@ -81,13 +173,16 @@ function Services() {
             </p>
           </div>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <img src={ward} className="col-images" />
           </div>
         </div>
         <div className="row mt-2">
           <h3>OUTPATIENT SERVICES</h3>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <img
+              src="https://silverlinecrm.com/wp-content/uploads/2021/04/Patient-360.jpg"
+              className="col-images"
+            />
           </div>
           <div className="col">
             <p className="services-p text-start">
@@ -119,7 +214,50 @@ function Services() {
             </p>
           </div>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <div
+              id="carouselExampleAutoplaying"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src={ae} className="col-images" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Wheelchair</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src={Triage} className="col-images" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Triage</h5>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
           </div>
         </div>
         <div className="row mt-2">
