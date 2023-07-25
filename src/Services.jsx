@@ -18,6 +18,7 @@ import healthEducation from "./assets/healthEducation.jpg";
 import homecare from "./assets/homecare.jpeg";
 import diabetes from "./assets/diabetes.jpg";
 import counselling from "./assets/counselling.jpg";
+import consult from "./assets/consult.jpeg";
 
 function Services() {
   return (
@@ -26,7 +27,7 @@ function Services() {
         <h1>SERVICES</h1>
       </div>
       <div className="container">
-        <div className="row mt-2">
+        <div className="row mt-2" id="pharmacy">
           <h3>PHARMACY SERVICES</h3>
           <div className="col">
             <p className="services-p text-start">
@@ -93,7 +94,7 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className="row mt-2">
+        <div className="row mt-2" id="laboratory">
           <h3>LABORATORY SERVICES</h3>
           <div className="col">
             <div
@@ -461,7 +462,7 @@ function Services() {
             </p>
           </div>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <img src={consult} className="col-images" />
           </div>
         </div>
         <div className="row mt-2">

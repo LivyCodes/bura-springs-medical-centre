@@ -78,15 +78,6 @@ function NavBar() {
                 </Link>
                 <ul class="dropdown-menu">
                   <li>
-                    <Link
-                      class="dropdown-item"
-                      to="/HomeCare"
-                      title="HomeCare Services"
-                    >
-                      HOMECARE
-                    </Link>
-                  </li>
-                  <li>
                     <Link class="dropdown-item" to="/Rescue" title="Rescue">
                       RESCUE
                     </Link>
