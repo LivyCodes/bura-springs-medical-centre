@@ -12,6 +12,12 @@ import Triage from "./assets/triage.jpeg";
 import ward from "./assets/ward.jpeg";
 import consultation from "./assets/consultation.jpg";
 import dental from "./assets/dental.jpg";
+import familyPlanning from "./assets/fp.jpg";
+import physiotherapy from "./assets/physiotherapy.jpeg";
+import healthEducation from "./assets/healthEducation.jpg";
+import homecare from "./assets/homecare.jpeg";
+import diabetes from "./assets/diabetes.jpg";
+import counselling from "./assets/counselling.jpg";
 
 function Services() {
   return (
@@ -371,13 +377,13 @@ function Services() {
             </p>
           </div>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <img src={familyPlanning} className="col-images" />
           </div>
         </div>
         <div className="row mt-2">
           <h3>PHYSIOTHERAPY SERVICES</h3>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <img src={physiotherapy} className="col-images" />
           </div>
           <div className="col">
             <p className="services-p text-start">
@@ -413,13 +419,13 @@ function Services() {
             </p>
           </div>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <img src={healthEducation} className="col-images" />
           </div>
         </div>
         <div className="row mt-2">
           <h3>HOMEBASED CARE CLINIC</h3>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <img src={homecare} className="col-images" />
           </div>
           <div className="col">
             <p className="services-p text-start">
@@ -461,7 +467,7 @@ function Services() {
         <div className="row mt-2">
           <h3>DIABETES CLINIC</h3>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <img src={diabetes} className="col-images" />
           </div>
           <div className="col">
             <p className="services-p text-start">
@@ -494,7 +500,7 @@ function Services() {
             </p>
           </div>
           <div className="col">
-            <img src={pharmacy} className="col-images" />
+            <img src={counselling} className="col-images" />
           </div>
         </div>
       </div>
