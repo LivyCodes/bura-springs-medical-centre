@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Roboto+Serif:wght@500&family=Satisfy&display=swap");
 #root {
   margin: 0 auto;
   padding: 0 auto;
@@ -34,6 +35,13 @@
   max-width: 100%;
   margin-top: 40px;
   margin-bottom: -40px;
+}
+.best-of {
+  font-family: "Satisfy", cursive;
+}
+.head {
+  font-family: "Roboto Serif", serif;
+  color: #ffffff;
 }
 
 @keyframes wordAnimation {

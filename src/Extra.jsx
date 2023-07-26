@@ -37,7 +37,7 @@ function Extra() {
             <ul class="list-group list-group-flush" id="work-times">
               <li class="list-group-item">
                 <li class="list-group-item">
-                  <h6 class="title mt-3">Working Hours</h6>
+                  <h5 class="title mt-3">Working Hours</h5>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item">Weekdays: 7:00am to 7:00pm</li>
                     <li class="list-group-item">Saturday: 7:00am to 7:00pm</li>
@@ -47,7 +47,7 @@ function Extra() {
               </li>
               <li class="list-group-item">
                 <li class="list-group-item">
-                  <h6 class="title mt-3">Inpatient Visiting Hours</h6>
+                  <h5 class="title mt-3">Inpatient Visiting Hours</h5>
                   <ul class="list-group list-group-flush">
                     <li class="list-group-item">Lunch hour: 12 noon to 2pm</li>
                     <li class="list-group-item">Evening hour: 4pm to 7pm</li>
@@ -382,7 +382,7 @@ function Extra() {
 
       <div className="row mt-3">
         <div className="col mt-3">
-          <h4>OUR SOCIAL IMPACT</h4>
+          <h4 className="title">OUR SOCIAL IMPACT</h4>
           <p>
             The idea of CSR has placed corporations not only in the position to
             be responsible for economic and legal obligations but also to a

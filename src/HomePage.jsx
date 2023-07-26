@@ -13,7 +13,7 @@ function HomePage() {
       <div className="heros">
         <div className=" row ">
           <div className=" col text-overlay">
-            <h1>
+            <h1 className="head">
               <span>BURA </span>
               <span>SPRINGS </span>
               <span>FAMILY </span>
@@ -21,7 +21,7 @@ function HomePage() {
               <span>CENTRE </span>
               <span>LTD</span>
             </h1>
-            <h4>
+            <h4 className="best-of">
               <span>Best of Care,</span>
               <span>Close to Home</span>
             </h4>

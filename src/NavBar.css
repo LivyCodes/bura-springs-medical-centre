@@ -1,3 +1,10 @@
 .nav-item {
   font-size: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #000;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  background: linear-gradient(45deg, #00afefa5 0%, #0baf73af 100%);
 }

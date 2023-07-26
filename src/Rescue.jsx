@@ -36,7 +36,7 @@ function Rescue() {
           Choice"
           <br />
           Procedures offered in the Accident and Emergency Unit:
-          <ul className="text-start">
+          <ul className="centered-ul text-start">
             <li>ECG</li>
             <li>Ear Syringing</li>
             <li>Drug Administration</li>
@@ -53,7 +53,7 @@ function Rescue() {
           trained personnel and all the required items i.e. Monitors and Vents.
           Ambulance well equipped with well trained personnel. Other services
           offered in the have unit include:
-          <ul className="text-start">
+          <ul className="centered-ul text-start">
             <li>Sexual Gender Based Violence (SGBV)</li>
             <li>
               Laboratory and Radiology services(to fast track patients care)

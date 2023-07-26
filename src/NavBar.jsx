@@ -28,7 +28,7 @@ function NavBar() {
           >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <Link class="nav-link active" to="/" title="HomePage">
+                <Link class="nav-link " to="/" title="HomePage">
                   HOME
                 </Link>
               </li>
