@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./footer.css";
-import logolocation from "./assets/logo-location.jpg";
+import logolocation from "./assets/buraLocationLogo.png";
 
 function Footer() {
   return (
-    <div className="shero">
+    <div className="shero mt-3">
       <div className="row">
         <div className="col text-start ">
           <img src={logolocation} className="col-images" />
@@ -65,10 +65,10 @@ function Footer() {
               <li>MCH</li>
             </Link>
             <Link to="/Services">
-              <li>Dental Clinic</li>
+              <li className="list-item">Dental Clinic</li>
             </Link>
             <Link to="/Services">
-              <li>Family Planning</li>
+              <li className="list-item">Family Planning</li>
             </Link>
             <Link to="/Services">
               <li>Physiotherapy</li>
@@ -95,13 +95,13 @@ function Footer() {
             <h5>
               <strong>Work Hours</strong>
             </h5>
-            <li>Monday: 7:00am - 7:00pm</li>
-            <li>Tuesday: 7:00am - 7:00pm</li>
-            <li>Wednesday: 7:00am - 7:00pm</li>
-            <li>Thursday: 7:00am - 7:00pm</li>
-            <li>Friday: 7:00am - 7:00pm</li>
-            <li>Saturday: 7:00am - 7:00pm</li>
-            <li>Sunday: 7:00am - 7:00pm</li>
+            <li>Mon: 7:00am - 7:00pm</li>
+            <li>Tue: 7:00am - 7:00pm</li>
+            <li>Wed: 7:00am - 7:00pm</li>
+            <li>Thur: 7:00am - 7:00pm</li>
+            <li>Fri: 7:00am - 7:00pm</li>
+            <li>Sat: 7:00am - 7:00pm</li>
+            <li>Sun: 7:00am - 7:00pm</li>
           </ul>
         </div>
       </div>

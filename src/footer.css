@@ -1,8 +1,12 @@
-.footer li {
+li {
   list-style-type: none;
   text-decoration: none;
 }
 
 .shero {
-  background-color: #fafcfc;
+  background-color: #f8f9fa;
+}
+
+li:hover {
+  text-decoration: none;
 }
