@@ -10,23 +10,9 @@ import doctor from "./assets/doctor.jpg";
 function HomePage() {
   return (
     <div>
-      <div className="heros">
+      <div>
         <div className=" row ">
-          <div className=" col text-overlay">
-            <h1 className="head">
-              <span>BURA </span>
-              <span>SPRINGS </span>
-              <span>FAMILY </span>
-              <span>MEDICAL </span>
-              <span>CENTRE </span>
-              <span>LTD</span>
-            </h1>
-            <h4 className="best-of">
-              <span>Best of Care,</span>
-              <span>Close to Home</span>
-            </h4>
-          </div>
-          <div className="col">
+          <div className="col justify-content-center">
             <div
               id="carouselExampleAutoplaying"
               class="carousel slide hospital-image"

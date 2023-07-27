@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "./assets/logo2.png";
 import "./NavBar.css";
 
 function NavBar() {
@@ -8,9 +7,6 @@ function NavBar() {
     <div>
       <nav class="navbar navbar-expand-lg bg-body-tertiary ">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src={Logo} alt="logo" height={100} width={100} />
-          </a>
           <button
             class="navbar-toggler"
             type="button"
@@ -23,7 +19,7 @@ function NavBar() {
             <span class="navbar-toggler-icon"></span>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-end"
+            class="collapse navbar-collapse justify-content-center"
             id="navbarNavDropdown"
           >
             <ul class="navbar-nav">
@@ -95,7 +91,7 @@ function NavBar() {
               </li>
               <li class="nav-item">
                 <Link class="nav-link" to="/Contacts" title="Our Contacts">
-                  CONTACTS
+                  CONTACTS & DIRECTION
                 </Link>
               </li>
             </ul>

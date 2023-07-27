@@ -6,7 +6,7 @@ function Contacts() {
   return (
     <div>
       <div class="hero hero-1 d-flex">
-        <h1>CONTACTS & INFORMATION</h1>
+        <h1>CONTACTS & DIRECTION</h1>
       </div>
       <div className="row mt-3 mb-3">
         <div className="col contacts-col">

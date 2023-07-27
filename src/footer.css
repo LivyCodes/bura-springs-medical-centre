@@ -4,9 +4,14 @@
 }
 
 .shero {
-  background-color: #f8f9fa;
+  background-color: #0000fe;
+  color: white;
 }
 
 li:hover {
   text-decoration: none;
+}
+
+.list-item {
+  color: white;
 }

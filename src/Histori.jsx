@@ -116,7 +116,7 @@ function Histori() {
                     <div class="carousel-item active">
                       <img src={financialManager} className="col-images" />
                       <div class="carousel-caption d-none d-md-block">
-                        <h5>Mr Brian Mutumwa - Financial Manager</h5>
+                        <h5>Mr Brian Mutumwa - Administrator/Manager</h5>
                       </div>
                     </div>
                   </div>
@@ -167,7 +167,7 @@ function Histori() {
             <strong>Mr. Eric Magina - </strong>Managing Director / C.E.O
           </li>
           <li>
-            <strong>Brian Mutumwa - </strong>Financial Manager
+            <strong>Brian Mutumwa - </strong>Administrator/Manager
           </li>
           <li>
             <strong>Boniface Amayo - </strong>Chief Medical Officer

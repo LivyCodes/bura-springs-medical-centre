@@ -1,5 +1,6 @@
 import NavBar from "./NavBar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Logo from "./logo";
 import VisionMission from "./VisionMission";
 import Histori from "./Histori";
 import Services from "./Services";
@@ -8,7 +9,6 @@ import Hazard from "./HazardWaste";
 import Contacts from "./Contacts";
 import HomePage from "./HomePage";
 import Footer from "./footer";
-
 import "./App.css";
 
 function App() {
@@ -16,7 +16,9 @@ function App() {
     <div className="responsive-div">
       <Router>
         <div>
+          <Logo />
           <NavBar />
+
           <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route exact path="/VisionMission" element={<VisionMission />} />

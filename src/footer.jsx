@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./footer.css";
-import logolocation from "./assets/buraLocationLogo.png";
+import logolocation from "./assets/buralogo.jpg";
 
 function Footer() {
   return (

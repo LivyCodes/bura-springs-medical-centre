@@ -1,0 +1,15 @@
+.heros {
+  display: flex;
+  align-items: center;
+  background-color: #0000fe;
+}
+
+h1 {
+  font-family: "Domine", serif;
+  color: #ffffff;
+}
+
+.best-of {
+  font-family: "Satisfy", cursive;
+  color: #ffffff;
+}
