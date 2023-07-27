@@ -31,20 +31,13 @@ function Services() {
           <h3>PHARMACY SERVICES</h3>
           <div className="col">
             <p className="services-p text-start">
-              Bura Springs Family Medical Centre Pharmacy, is staffed by highly
-              qualified professionals with specialized qualifications, takes
-              pride in the quality of professional services offered to
-              customers. The pharmacy is committed to providing efficient
-              services to both in-patients and out-patients, while ensuring that
-              treatment is safe and fitting. We dispense quality medicines at
-              our facility at the best price possible. Before stocking,
-              medicines go through a vetting and approval process conducted by
-              The Medicines and Therapeutic Committee, a body that plays vital
-              governance, policy and support role for medicine use processes
-              within the facility. All medicines and medical supplies are
-              procured by the hospital from registered suppliers thereby always
-              guaranteeing our patients quality medicines, considering the risk
-              of counterfeit and substandard products in the industry.
+              Bura Springs Family Medical Centre Pharmacy, staffed by qualified
+              professionals, offers efficient services for both in-patients and
+              out-patients. We ensure safe and fitting treatment, dispense
+              quality medicines at competitive prices, and undergo vetting and
+              approval processes by The Medicines and Therapeutic Committee. All
+              medicines and supplies are procured from registered suppliers,
+              ensuring quality and avoiding counterfeit products.
             </p>
           </div>
           <div className="col">
@@ -143,42 +136,29 @@ function Services() {
             </div>
           </div>
           <div className="col">
-            <p className="services-p text-start">
-              Bura Springs Family Medical Centre Laboratory is dedicated to
-              providing accurate and timely diagnostic testing to support your
-              healthcare needs. Our state-of-the-art facility is equipped with
-              advanced technology and staffed by highly skilled laboratory
-              professionals committed to delivering reliable results. In the
-              quest for access to quality services for all our clients, we
-              ensure to engage with quality assessment bodies to monitor and
-              evaluate some of our results. Through a quality coordinator, we
-              ensure to maintain the WHO standard and uphold all quality
-              Assurance programs. Before any testing starts, daily internal
-              quality controls and calibrations are run to assure quality of the
-              reports. We offer a comprehensive range of diagnostic tests,
-              including blood work, urine analysis, microbiology, pathology, and
-              imaging studies. Our experienced team follows strict quality
-              control measures and adheres to industry standards to ensure the
-              accuracy and reliability of every test performed.
+            <p className="services-p ">
+              Bura Springs Family Medical Centre Laboratory offers accurate and
+              timely diagnostic testing to support healthcare needs. With
+              advanced technology and skilled professionals, we engage with
+              quality assessment bodies to monitor and evaluate results. We
+              maintain WHO standards and uphold quality assurance programs,
+              running daily internal quality controls and calibrations. We offer
+              a comprehensive range of diagnostic tests, adhering to industry
+              standards for accuracy and reliability.
             </p>
           </div>
         </div>
         <div className="row mt-2">
           <h3>INPATIENT SERVICES</h3>
           <div className="col">
-            <p className="services-p text-start">
-              Welcome to Bura Springs Family Medical Centre Inpatient Services,
-              where we prioritize your well-being and deliver compassionate care
-              throughout your hospital stay. Our dedicated team of healthcare
-              professionals provides personalized attention, round-the-clock
-              monitoring, and advanced medical services tailored to your
-              specific needs. We strive to create a warm and supportive
-              environment, addressing your concerns and keeping you informed
-              every step of the way. With a focus on your recovery, our
-              attentive nursing staff, supportive services, and strict infection
-              control measures ensure your safety and comfort. Trust Bura
-              Springs Family Medical Centre Inpatient Services for comprehensive
-              care that promotes healing and enhances your overall well-being.
+            <p className="services-p ">
+              Bura Springs Family Medical Centre Inpatient Services prioritizes
+              well-being and compassionate care during hospital stays. With a
+              dedicated team, we offer personalized attention, round-the-clock
+              monitoring, and advanced medical services. We create a warm,
+              supportive environment, address concerns, and ensure safety and
+              comfort through attentive nursing staff and strict infection
+              control measures.
             </p>
           </div>
           <div className="col">
@@ -191,25 +171,21 @@ function Services() {
             <img src={consultation} className="col-images" />
           </div>
           <div className="col">
-            <p className="services-p text-start">
-              At Bura Springs Family Medical Centre, we provide comprehensive
-              outpatient services for a wide range of medical conditions.
-              Whether you need a routine check-up or a specialist consultation,
-              our team of experienced physicians, nurses and support staff are
-              here to assist you. We offer diagnosis, treatment and management
-              for conditions such as hypertension, diabetes, respiratory
-              diseases, gastrointestinal disorders, neurological problems, and
-              many more. Our state-of-the-art diagnostic facilities and
-              personalized care ensure that you receive the best possible
-              treatment. Book an appointment with us today and experience the
-              best outpatient care.
+            <p className="services-p ">
+              Bura Springs Family Medical Centre offers comprehensive outpatient
+              services for various medical conditions, including hypertension,
+              diabetes, respiratory diseases, gastrointestinal disorders, and
+              neurological problems. With experienced physicians, nurses, and
+              support staff, we provide personalized care and state-of-the-art
+              diagnostic facilities for optimal treatment. Book an appointment
+              today.
             </p>
           </div>
         </div>
         <div className="row mt-2">
           <h3>ACCIDENT & EMERGENCY</h3>
           <div className="col">
-            <p className="services-p text-start">
+            <p className="services-p ">
               Our Accident & Emergency department that handles all the emergency
               cases which comes to the hospital and provides emergency medical
               services in Kenya. The emergency department is staffed by highly
@@ -315,7 +291,7 @@ function Services() {
             </div>
           </div>
           <div className="col">
-            <p className="services-p text-start">
+            <p className="services-p ">
               At Bura Springs Family Medical Centre, we acknowledge that
               pregnancy, labour, birth and early parenting are significant
               events in the life of every mother. Every birth is unique. We
@@ -323,14 +299,14 @@ function Services() {
               of your pregnancy by focusing on Antenatal Health promotion,
               nutritional interventions, early detection of pregnancy related
               conditions. Our delivery options include midwife-assisted, and
-              gynaecologist – assisted delivery.
+              gynaecologist - assisted delivery.
             </p>
           </div>
         </div>
         <div className="row mt-2">
           <h3>DENTAL CLINIC</h3>
           <div className="col">
-            <p className="services-p text-start">
+            <p className="services-p ">
               At Bura Springs Family Medical Centre, we provide comprehensive
               dental care services for adults and children. Our experienced
               dentists and dental hygienists offer preventive care, restorative
@@ -352,7 +328,7 @@ function Services() {
             <img src={mch} className="col-images" />
           </div>
           <div className="col">
-            <p className="services-p text-start">
+            <p className="services-p ">
               Our Antenatal Clinic offers all-encompassing, comprehensive care
               to expectant women on all aspects of pregnancy and childbirth.
               Pre-Natal Exercises, health talks etc. effectively preparing the
@@ -364,17 +340,13 @@ function Services() {
         <div className="row mt-2">
           <h3>FAMILY PLANNING CLINIC</h3>
           <div className="col">
-            <p className="services-p text-start">
-              At Bura Springs Family Medical Centre, we offer comprehensive
-              family planning services to empower individuals and couples in
-              making informed choices about their reproductive health. Our
-              services include preconception counseling, birth control
-              consultations, and reproductive health screenings. We prioritize
-              open and non-judgmental conversations, ensuring confidential and
-              personalized care to align with each patient's unique
-              circumstances and aspirations. Our goal is to support you at every
-              stage of your family planning journey and help you achieve your
-              reproductive health goals with compassion and expertise.
+            <p className="services-p ">
+              Bura Springs Family Medical Centre provides family planning
+              services, including preconception counseling, birth control
+              consultations, and screenings, empowering individuals and couples
+              to make informed reproductive health choices. We prioritize open,
+              non-judgmental conversations and provide personalized care, aiming
+              to support patients throughout their journey.
             </p>
           </div>
           <div className="col">
@@ -387,7 +359,7 @@ function Services() {
             <img src={physiotherapy} className="col-images" />
           </div>
           <div className="col">
-            <p className="services-p text-start">
+            <p className="services-p ">
               At Bura Springs Family Medical Centre, we provide personalized
               physiotherapy sessions on case-by-case basis. We recognize that
               the need for rehabilitation is individual. Our Physiotherapy
@@ -403,20 +375,15 @@ function Services() {
         <div className="row mt-2">
           <h3>HEALTH EDUCATION</h3>
           <div className="col">
-            <p className="services-p text-start">
-              At Bura Springs Family Medical Centre, we believe that knowledge
-              is power when it comes to your health. That's why we offer
-              comprehensive health education services to empower you to take
-              control of your health and wellbeing. Our health education
-              programs cover a wide range of topics, from disease prevention and
-              management to healthy lifestyle habits and self-care practices.
-              Our team of experienced healthcare professionals and educators
-              provide personalized and interactive education sessions that are
-              tailored to your individual needs and goals. We believe that by
-              educating and empowering you, we can help you make informed
-              decisions about your health and improve your quality of life.
+            <p className="services-p ">
+              Bura Springs Family Medical Centre offers comprehensive health
+              education services to empower individuals to take control of their
+              health and wellbeing. Our team of experienced healthcare
+              professionals provides personalized sessions tailored to
+              individual needs, empowering individuals to make informed
+              decisions about their health and improve their quality of life.
               Contact us today to learn more about our health education services
-              and take the first step towards a healthier, happier you.
+              and start your journey towards a healthier, happier you.
             </p>
           </div>
           <div className="col">
@@ -429,29 +396,21 @@ function Services() {
             <img src={homecare} className="col-images" />
           </div>
           <div className="col">
-            <p className="services-p text-start">
-              Home-based care is the care of persons with chronic or terminal
-              illnesses extended from the hospital or health facility to the
-              patients' homes through family participation and community
-              involvement within available resources and in collaboration with
-              health care workers. It is a holistic and comprehensive care which
-              relies on collaboration between the hospital, the family of the
-              client, and the community, in order to enhance the quality of life
-              of the patients and their families. The concept of Home-based care
-              does not just address any disease condition but is intended for
+            <p className="services-p ">
+              Home-based care is a holistic approach to treating chronic or
+              terminal illnesses, involving family participation and community
+              involvement. It is a comprehensive approach that focuses on
               debilitating diseases that make patients unable to care for
-              themselves. In HIV/AIDS for instance, we do not provide HBC to
-              those who are HIV positive but to those with advanced AIDS
-              illness. HBC concerns those who are sick but still able to care
-              for themselves as well as those who are bedridden and unable to
-              care for themselves.
+              themselves. HBC is particularly important for patients with
+              advanced AIDS illness, including those who are sick but still able
+              to care for themselves and those who are bedridden.
             </p>
           </div>
         </div>
         <div className="row mt-2">
           <h3>SURGICAL OUTPATIENT CLINIC</h3>
           <div className="col">
-            <p className="services-p text-start">
+            <p className="services-p ">
               At Bura Springs Family Medical Centre, we prioritize precision,
               safety, and patient-centered care. Our experienced medical team
               utilizes the latest techniques and advancements to perform a wide
@@ -471,7 +430,7 @@ function Services() {
             <img src={diabetes} className="col-images" />
           </div>
           <div className="col">
-            <p className="services-p text-start">
+            <p className="services-p ">
               Our Diabetes Care Clinic is dedicated to the prevention, treatment
               and management of Diabetes in all its forms. We ensure that all
               patients receive both basic and specialist diabetes care. The
@@ -487,7 +446,7 @@ function Services() {
         <div className="row mt-2">
           <h3>COUNSELLING CLINIC</h3>
           <div className="col">
-            <p className="services-p text-start">
+            <p className="services-p ">
               As part of our commitment to provide holistic health solutions to
               patients, we offer specialized Counselling and Psychotherapy
               services aimed at relieving any grieving or stressful problems
