@@ -17,7 +17,7 @@ import physiotherapy from "./assets/physiotherapy.jpeg";
 import healthEducation from "./assets/healthEducation.jpg";
 import homecare from "./assets/homecare.jpeg";
 import diabetes from "./assets/diabetes.jpg";
-import counselling from "./assets/counselling.jpg";
+import counselling from "./assets/counsellingg.jpg";
 import consult from "./assets/consult.jpeg";
 
 function Services() {
@@ -28,7 +28,7 @@ function Services() {
       </div>
       <div className="container">
         <div className="row mt-2" id="pharmacy">
-          <h3>PHARMACY SERVICES</h3>
+          <h3 className="title">PHARMACY SERVICES</h3>
           <div className="col">
             <p className="services-p text-start">
               Bura Springs Family Medical Centre Pharmacy, staffed by qualified
@@ -88,7 +88,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2" id="laboratory">
-          <h3>LABORATORY SERVICES</h3>
+          <h3 className="title">LABORATORY SERVICES</h3>
           <div className="col">
             <div
               id="carouselExampleAutoplaying"
@@ -149,7 +149,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>INPATIENT SERVICES</h3>
+          <h3 className="title">INPATIENT SERVICES</h3>
           <div className="col">
             <p className="services-p ">
               Bura Springs Family Medical Centre Inpatient Services prioritizes
@@ -183,7 +183,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>ACCIDENT & EMERGENCY</h3>
+          <h3 className="title">ACCIDENT & EMERGENCY</h3>
           <div className="col">
             <p className="services-p ">
               Our Accident & Emergency department that handles all the emergency
@@ -243,7 +243,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>MATERNITY</h3>
+          <h3 className="title">MATERNITY</h3>
           <div className="col">
             <div
               id="carouselExampleAutoplaying"
@@ -304,7 +304,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>DENTAL CLINIC</h3>
+          <h3 className="title">DENTAL CLINIC</h3>
           <div className="col">
             <p className="services-p ">
               At Bura Springs Family Medical Centre, we provide comprehensive
@@ -323,7 +323,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>MCH CLINIC</h3>
+          <h3 className="title">MCH CLINIC</h3>
           <div className="col">
             <img src={mch} className="col-images" />
           </div>
@@ -338,7 +338,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>FAMILY PLANNING CLINIC</h3>
+          <h3 className="title">FAMILY PLANNING CLINIC</h3>
           <div className="col">
             <p className="services-p ">
               Bura Springs Family Medical Centre provides family planning
@@ -354,7 +354,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>PHYSIOTHERAPY SERVICES</h3>
+          <h3 className="title">PHYSIOTHERAPY SERVICES</h3>
           <div className="col">
             <img src={physiotherapy} className="col-images" />
           </div>
@@ -373,7 +373,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>HEALTH EDUCATION</h3>
+          <h3 className="title">HEALTH EDUCATION</h3>
           <div className="col">
             <p className="services-p ">
               Bura Springs Family Medical Centre offers comprehensive health
@@ -391,7 +391,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>HOMEBASED CARE CLINIC</h3>
+          <h3 className="title">HOMEBASED CARE CLINIC</h3>
           <div className="col">
             <img src={homecare} className="col-images" />
           </div>
@@ -408,7 +408,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>SURGICAL OUTPATIENT CLINIC</h3>
+          <h3 className="title">SURGICAL OUTPATIENT CLINIC</h3>
           <div className="col">
             <p className="services-p ">
               At Bura Springs Family Medical Centre, we prioritize precision,
@@ -425,7 +425,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>DIABETES CLINIC</h3>
+          <h3 className="title">DIABETES CLINIC</h3>
           <div className="col">
             <img src={diabetes} className="col-images" />
           </div>
@@ -444,7 +444,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>COUNSELLING CLINIC</h3>
+          <h3 className="title">COUNSELLING CLINIC</h3>
           <div className="col">
             <p className="services-p ">
               As part of our commitment to provide holistic health solutions to

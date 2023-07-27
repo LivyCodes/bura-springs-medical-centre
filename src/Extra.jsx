@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import burafc from "./assets/burafc.jpg";
 import "./Extra.css";
 
 function Extra() {
@@ -396,7 +397,7 @@ function Extra() {
           </a>
         </div>
         <div className="col mt-3">
-          <strong>BURA SPRINGS FC PHOTO</strong>
+          <img src={burafc} className="col-images" />
         </div>
       </div>
     </div>
