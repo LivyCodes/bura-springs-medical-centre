@@ -13,9 +13,9 @@ h1 {
   font-family: "Satisfy", cursive;
   color: #ffffff;
 }
-.logos {
-  margin-right: 0;
-  align-items: flex-end;
-  justify-content: end;
-  text-align: end;
+.lindamama {
+  margin-right: 20px;
+}
+.eduafya {
+  margin-left: 20px;
 }

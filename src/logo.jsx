@@ -17,9 +17,27 @@ function Logo() {
         </h4>
         <div className="d-flex justify-content-end logos mt-3">
           {" "}
-          <img src={lindamama} alt="logo" height={130} width={130} />
-          <img src={nhif} alt="logo" height={130} width={130} />
-          <img src={eduafya} alt="logo" height={130} width={130} />
+          <img
+            className="lindamama"
+            src={lindamama}
+            alt="logo"
+            height={130}
+            width={130}
+          />
+          <img
+            className="nhif"
+            src={nhif}
+            alt="logo"
+            height={130}
+            width={130}
+          />
+          <img
+            className="eduafya"
+            src={eduafya}
+            alt="logo"
+            height={130}
+            width={130}
+          />
         </div>
       </div>
     </div>
