@@ -87,6 +87,11 @@ function NavBar() {
                       HAZARDOUS WASTE MANAGEMET
                     </Link>
                   </li>
+                  <li>
+                    <Link class="dropdown-item" to="/Marketing" title="Rescue">
+                      MARKETING
+                    </Link>
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">

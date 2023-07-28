@@ -8,7 +8,7 @@ function Rescue() {
         <h1>RESCUE</h1>
       </div>
       <div className="container">
-        <h4 className="mt-3">Accident & Emergency</h4>
+        <h4 className="mt-3 title">Accident & Emergency</h4>
         <p>
           A&E patients present with potentially life threatening symptoms such
           as headache, chest pain, abdominal pain, collapse of unknown cause and

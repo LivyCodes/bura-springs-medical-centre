@@ -8,7 +8,7 @@ import nhif from "./assets/Nhif.png";
 function Logo() {
   return (
     <div className="heros ">
-      <img src={logo} alt="logo" height={270.742} width={270.742} />
+      <img src={logo} alt="logo" height={337.984} width={337.984} />
       <div className="my-3 text-center d-flex flex-column align-items-center">
         <h1>BURA SPRINGS FAMILY MEDICAL CENTRE LTD</h1>
         <h4 className="best-of">
@@ -38,6 +38,9 @@ function Logo() {
             height={130}
             width={130}
           />
+        </div>
+        <div>
+          <p className="cont text-center mt-1">0708 581 792 / 0729 582 278</p>
         </div>
       </div>
     </div>

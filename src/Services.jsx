@@ -9,6 +9,8 @@ import lab1 from "./assets/lab1.jpeg";
 import lab2 from "./assets/lab2.jpeg";
 import ae from "./assets/a&e1.jpeg";
 import Triage from "./assets/triage.jpeg";
+import ambulance from "./assets/ambulance.jpg";
+import emergency from "./assets/emergency.jpg";
 import ward from "./assets/ward.jpeg";
 import consultation from "./assets/consultation.jpg";
 import dental from "./assets/dental.jpg";
@@ -166,7 +168,7 @@ function Services() {
           </div>
         </div>
         <div className="row mt-2">
-          <h3>OUTPATIENT SERVICES</h3>
+          <h3 className="title">OUTPATIENT SERVICES</h3>
           <div className="col">
             <img src={consultation} className="col-images" />
           </div>
@@ -213,6 +215,16 @@ function Services() {
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Triage</h5>
                   </div>
+                </div>
+                <div class="carousel-item">
+                  <img src={ambulance} className="col-images" />
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Ambulance</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src={emergency} className="col-images" />
+                  <div class="carousel-caption d-none d-md-block"></div>
                 </div>
               </div>
               <button

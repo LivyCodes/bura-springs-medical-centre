@@ -1,4 +1,5 @@
 import React from "react";
+import incinerator from "./assets/incinerator.jpeg";
 
 function Hazard() {
   return (
@@ -7,7 +8,7 @@ function Hazard() {
         <h1>HAZARDOUS WASTE MANAGEMENT</h1>
       </div>
       <div className="container">
-        <h4>Waste Management</h4>
+        <h4 className="title">Waste Management</h4>
         <p>
           Waste and by-products cover a diverse range of materials, as the
           following list illustrates:
@@ -42,6 +43,12 @@ function Hazard() {
               in medical devices (e.g. mercury in broken thermometers) and
               batteries;
             </p>
+            <div className="row">
+              <div className="col">
+                <img src={incinerator} className="hospital-image" />
+                <p className="text-center">The incenerator</p>
+              </div>
+            </div>
             <li>
               <strong>Pharmaceutical waste:</strong>
             </li>

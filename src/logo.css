@@ -7,10 +7,11 @@
 h1 {
   font-family: "Domine", serif;
   color: #ffffff;
+  font-size: 48px;
 }
 
 .best-of {
-  font-family: "Satisfy", cursive;
+  font-family: "Edu SA Beginner", cursive;
   color: #ffffff;
 }
 .lindamama {
@@ -18,4 +19,7 @@ h1 {
 }
 .eduafya {
   margin-left: 20px;
+}
+.cont {
+  color: #ffffff;
 }

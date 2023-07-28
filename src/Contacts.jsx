@@ -10,7 +10,7 @@ function Contacts() {
       </div>
       <div className="row mt-3 mb-3">
         <div className="col contacts-col">
-          <h4 className="contacts-head text-center">
+          <h4 className="contacts-head text-center title">
             BUSINESS ADDRESS AND DETAILS
           </h4>
           <ul className="list-group">
@@ -41,7 +41,9 @@ function Contacts() {
           </ul>
         </div>
         <div className="col contacts-col">
-          <h4 className="contacts-head text-center">CONTACT INFORMATION</h4>
+          <h4 className="contacts-head text-center title">
+            CONTACT INFORMATION
+          </h4>
           <ul className="list-group">
             <li className="list-group-item">
               <span className="custom-span">Business Address: </span>Bura
