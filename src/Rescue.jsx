@@ -1,5 +1,7 @@
 import React from "react";
 import "./rescue.css";
+import ambulance from "./assets/ambulance.jpg";
+import emergency from "./assets/emergency.jpg";
 
 function Rescue() {
   return (
@@ -26,6 +28,14 @@ function Rescue() {
             <li>School going kids</li>
             <li>Critical intervention of all kind</li>
           </ul>
+          <div className="row">
+            <div className="col">
+              <img src={ambulance} className="col-images" />
+            </div>
+            <div className="col">
+              <img src={emergency} className="col-images" />
+            </div>
+          </div>
           <br />
           Once the nurse at triage assess all patients presenting to the A&E
           she/he transfers them to a medical officers in the unit who then
