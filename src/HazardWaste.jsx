@@ -46,7 +46,7 @@ function Hazard() {
             <div className="row">
               <div className="col">
                 <img src={incinerator} className="hospital-image" />
-                <p className="text-center">The incenerator</p>
+                <p className="text-center">The incinerator</p>
               </div>
             </div>
             <li>

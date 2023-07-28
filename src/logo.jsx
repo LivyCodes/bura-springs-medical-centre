@@ -7,16 +7,11 @@ import nhif from "./assets/Nhif.png";
 
 function Logo() {
   return (
-    <div className="heros ">
-      <img src={logo} alt="logo" height={337.984} width={337.984} />
-      <div className="my-3 text-center d-flex flex-column align-items-center">
-        <h1>BURA SPRINGS FAMILY MEDICAL CENTRE LTD</h1>
-        <h4 className="best-of">
-          <span>Best of Care,</span>
-          <span>Close to Home</span>
-        </h4>
-        <div className="d-flex justify-content-end logos mt-3">
-          {" "}
+    <div className="heros justify-content-center">
+      <div className="my-3 text-center d-flex justify-content-center flex-column align-items-center">
+        <div className="d-flex justify-content-center logos mt-3">
+          <img src={logo} alt="logo" height={130} width={130} />
+
           <img
             className="lindamama"
             src={lindamama}
@@ -40,7 +35,9 @@ function Logo() {
           />
         </div>
         <div>
-          <p className="cont text-center mt-1">0708 581 792 / 0729 582 278</p>
+          <p className="cont text-center mt-1">
+            For emergency or inquiry : 0708 581 792 / 0729 582 278
+          </p>
         </div>
       </div>
     </div>

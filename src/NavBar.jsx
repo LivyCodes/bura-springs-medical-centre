@@ -5,7 +5,7 @@ import "./NavBar.css";
 function NavBar() {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <nav class="navbar navbar-expand-lg  ">
         <div class="container-fluid">
           <button
             class="navbar-toggler"

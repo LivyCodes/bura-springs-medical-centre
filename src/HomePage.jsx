@@ -22,7 +22,7 @@ function HomePage() {
     <div>
       <div>
         <div className=" row ">
-          <div className="col justify-content-center">
+          <div className="col col-a justify-content-center">
             <div
               id="carouselExampleAutoplaying"
               class="carousel slide hospital-image"
@@ -31,7 +31,7 @@ function HomePage() {
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src={facePhoto} className="hospital-image" />
-                  <p>Bura Springs Medical Centre Ltd</p>
+                  <p>Bura Springs Family Medical Centre Ltd</p>
                 </div>
                 <div class="carousel-item">
                   <img src={hospital} className="hospital-image" />

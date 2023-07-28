@@ -367,7 +367,7 @@ function Extra() {
         <div class="col">
           <div class="card card-a text-center">
             <div class="card-body">
-              <h5 class="card-title text-custom  mt-3">Work times</h5>
+              <h5 class="card-title text-custom title-a mt-3">Work times</h5>
 
               <p class="card-text text-custom">
                 The operation time for each clinic varies as well as the
