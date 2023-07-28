@@ -1,6 +1,7 @@
 .col-images {
   width: 100%;
   margin: 5px;
+  border-radius: 5px;
 }
 
 .col {
