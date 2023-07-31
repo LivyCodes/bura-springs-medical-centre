@@ -17,7 +17,7 @@ import dental from "./assets/dental.jpg";
 import familyPlanning from "./assets/fp.jpg";
 import physiotherapy from "./assets/physiotherapy.jpeg";
 import healthEducation from "./assets/healthEducation.jpg";
-import homecare from "./assets/homecare.jpeg";
+import homecare from "./assets/homebased2.jpg";
 import diabetes from "./assets/diabetes.jpg";
 import counselling from "./assets/counsellingg.jpg";
 import consult from "./assets/consult.jpeg";

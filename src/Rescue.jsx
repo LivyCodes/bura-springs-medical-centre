@@ -1,7 +1,7 @@
 import React from "react";
 import "./rescue.css";
-import ambulance from "./assets/ambulance.jpg";
-import emergency from "./assets/emergency.jpg";
+import amb1 from "./assets/amb1.jpeg";
+import amb2 from "./assets/amb2.jpeg";
 
 function Rescue() {
   return (
@@ -30,10 +30,10 @@ function Rescue() {
           </ul>
           <div className="row">
             <div className="col">
-              <img src={ambulance} className="col-images" />
+              <img src={amb1} className="col-images" />
             </div>
             <div className="col">
-              <img src={emergency} className="col-images" />
+              <img src={amb2} className="col-images" />
             </div>
           </div>
           <br />
