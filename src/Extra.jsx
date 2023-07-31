@@ -352,7 +352,7 @@ function Extra() {
       </div>
       <div className="text-center">
         <a>
-          <Link to="/Services" class=" btn-custom btn btn-primary mt-3">
+          <Link to="/Services" class=" btn-custom btn btn-primary mt-3 ">
             Explore our comprehensive range of services for detailed information
           </Link>
         </a>
@@ -373,7 +373,7 @@ function Extra() {
                 The operation time for each clinic varies as well as the
                 visiting hours Check out the schedule for more information
               </p>
-              <a href="#work-times" class=" btn-custom btn btn-primary">
+              <a href="#work-times" class="btn-b btn btn-primary">
                 Check out our schedule
               </a>
             </div>
