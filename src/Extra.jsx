@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import burafc from "./assets/burafc.jpg";
+import burafc from "./assets/fc1.jpg";
 import "./Extra.css";
 
 function Extra() {
