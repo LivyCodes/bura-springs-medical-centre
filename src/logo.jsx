@@ -10,7 +10,7 @@ function Logo() {
     <div className="heros justify-content-center">
       <div className="my-3 text-center d-flex justify-content-center flex-column align-items-center">
         <div className="d-flex justify-content-center logos mt-3">
-          <img src={logo} alt="logo" height={228} width={228} />
+          <img src={logo} alt="logo" height={130} width={130} />
 
           <img
             className="lindamama"
